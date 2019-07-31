@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Recipe from './components /Recipe';
 import './App.css';
+import Navbar from './components /Navbar';
 require('dotenv').config('../env');
 console.log(process.env.APP_KEY);
 
@@ -40,6 +41,7 @@ const App = () => {
 
 	return (
 		<div className="App">
+			<Navbar />
 			<form onSubmit={getSearch} className="search-form">
 				<input
 					className="search-bar"

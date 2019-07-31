@@ -1,6 +1,7 @@
 .App {
 	min-height: 100vh;
-	background-image: linear-gradient(
+	background-image: url(../src/resources/food-vector-pattern.jpg);
+	/* background-image: linear-gradient(
 		to right,
 		#ff8177 0%,
 		#ff867a 0%,
@@ -8,7 +9,7 @@
 		#f99185 52%,
 		#cf556c 78%,
 		#b12a5b 100%
-	);
+	); */
 }
 
 .search-form {
